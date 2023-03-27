@@ -29,6 +29,10 @@
 .hamburger{
     display: none;
 }
+.active {
+    color: #fff;
+    background-color: blue;
+}
 @media screen and (max-width: 1040px) {
     .nav-menu{
         flex-direction: column;

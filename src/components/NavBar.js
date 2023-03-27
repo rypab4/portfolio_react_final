@@ -2,9 +2,8 @@ import "./NavBarStyles.css"
 import React, { useState } from 'react'
 import { Nav } from 'react-bootstrap';
 import resume from '../assets/Resume.docx.pdf';
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
-
 
 const Navbar = () => {
 
@@ -21,25 +20,24 @@ const Navbar = () => {
     window.addEventListener("scroll", changeColor)
     return (
         <div className={color? "header header-bg" : "header"}>
-            <Link to="/">
+            <Link to="/portfolio">
                 <h1>Portfolio</h1>
             </Link>
-            <ul className={click ? "nav-menu active" :
-                "nav-menu"}>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <Link to="/">Home</Link>
+                    <NavLink exact to="/" activeClassName="active">Home</NavLink>
                 </li>
                 <li>
-                    <Link to="/about">About Me</Link>
+                    <NavLink to="/about" activeClassName="active">About Me</NavLink>
                 </li>
                 <li>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <NavLink to="/contact" activeClassName="active">Contact</NavLink>
                 </li>
                 <li>
-                <Nav.Link href={resume} download>Resume</Nav.Link>
+                    <Nav.Link href={resume} download>Resume</Nav.Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
