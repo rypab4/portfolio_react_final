@@ -16,7 +16,7 @@ const HeroImg = () => {
               <p>Scientist, Automation Specialist, FullStack Web Developer</p>
               {<img className="ryan" src={picture} alt=" Ryan Pabalate"/>}
             <div className="proj-link">
-            <Link to="/project" className="btn">Projects</Link>
+            <Link to="/portfolio" className="btn">Portfolio</Link>
             <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>
 

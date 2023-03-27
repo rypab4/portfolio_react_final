@@ -1,6 +1,7 @@
 import "./NavBarStyles.css"
 import React, { useState } from 'react'
-
+import { Nav } from 'react-bootstrap';
+import resume from '../assets/Resume.docx.pdf';
 import { Link } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
 
@@ -29,13 +30,16 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/project">Project</Link>
+                    <Link to="/about">About Me</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
                     <Link to="/contact">Contact</Link>
+                </li>
+                <li>
+                <Nav.Link href={resume} download>Resume</Nav.Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
