@@ -8,11 +8,13 @@ const Work = () => {
     <div className="work-container">
         <h1 className="project-heading">Projects</h1>
         <div className="project-container">
+         {/*Mapping through each object in the WorkCardData array and rendering a WorkCard component for each object*/}
          {WorkCardData.map((val, ind)=>{
             return(
                 <WorkCard 
                 key={ind}
-                imgsrc={val.imgsrc}
+                //assigning for the project card
+                imgsrc={val.imgsrc} 
                 title={val.title}
                 text={val.text}
                 view={val.view}

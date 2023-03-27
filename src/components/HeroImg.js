@@ -1,3 +1,5 @@
+//image on homepage
+
 import "./HeroImgStyles.css";
 
 import React from 'react'

@@ -1,3 +1,5 @@
+//hero for resume
+
 import "./HeroImg3Styles.css"
 import React, { Component } from 'react'
 import resume from '../assets/Resume.png'

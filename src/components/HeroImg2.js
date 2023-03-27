@@ -1,3 +1,5 @@
+//image for about
+
 import "./HeroImg2Styles.css"
 import React, {Component} from 'react'
 

@@ -1,10 +1,11 @@
+//importing navbar component
 import "./NavBarStyles.css"
 import React, { useState } from 'react'
 import { Link, NavLink } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
 
 const Navbar = () => {
-
+//setting up Navbar hamburger icon is clicked
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const [color, setColor] = useState(false);
@@ -15,7 +16,9 @@ const Navbar = () => {
             setColor(false);
         }
     }
+   //detect when the user scrolls and change navbar background color
     window.addEventListener("scroll", changeColor)
+    //Returning the JSX for the navbar
     return (
         <div className={color? "header header-bg" : "header"}>
             <Link to="/portfolio">

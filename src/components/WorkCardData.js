@@ -1,3 +1,5 @@
+//create data to pass through portfolio
+
 import pro1 from "../assets/social_media_api.png"
 import pro2 from "../assets/Tech_Blog.png"
 import pro3 from "../assets/text_editor.png"

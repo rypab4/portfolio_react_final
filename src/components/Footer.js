@@ -1,5 +1,7 @@
+//Create static footer numbers are not real 
 import "./FooterStyles.css";
 import React from 'react'
+//import react icons
 import { FaHome, FaPhone, FaMailBulk, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
@@ -30,6 +32,7 @@ const Footer = () => {
                 </div>
                 <div className="right">
                     <p>Links to social media profiles</p>
+                    {/* use react icons */}
                     <div className="social">
                         <a href="https://github.com/rypab4">
                             <FaGithub size={30} style={{ color: "#fff", marginRight: "2rem" }} />

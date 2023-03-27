@@ -1,3 +1,5 @@
+//This is will be the about content written on the bottom page
+
 import "./AboutContentStyles.css"
 
 import React from 'react'
@@ -20,7 +22,7 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container"></div>
         <div className="img-stack bottom">
-          <img src={React2} className="img" alt="true" />
+          <img src={React2} className="img" alt="Ryan Pabalate pic" />
         </div>
 
       </div>
