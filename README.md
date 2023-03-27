@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# portfolio_react_final
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+The application is a portfolio using React.  
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
+* [Links](#links)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Installation](#installation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Usage](#usage)
 
-### `npm test`
+* [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Code](#code)
 
-### `npm run build`
+* [Tests](#tests)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Questions](#questions)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GitHub URL:  https://github.com/rypab4/portfolio_react_final
+Heroku URL: https://rypab4.github.io/portfolio_react_final/
+## Installations 
 
-### `npm run eject`
+To install necessary dependencies, run the following command if running from github and on local:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "emailjs-com": "^3.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1.  If running using local server with the github repo, npm start.  Otherwise go to https://rypab4.github.io/portfolio_react_final/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2.  After cloning the repo from github.  Type in npx create-react-app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.  npm start will install dependencies listed above.
 
-### Code Splitting
+4.  The first page will when will be showing the about page.  Will have my name and description.  It will have the nav bar with About Me, Portfolio, Contact and Resume.  It will also have a footer with social media links on the bottom.  When you scroll down you will see a little about me.
+![alt text](/src/assets/homepage.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. As you select any link on the navbar they will be highlighted.  Click on the About me shows a different background but still has the little bio on the bottom.
+![alt text](/src/assets/About_me.png)
 
-### Analyzing the Bundle Size
+6. Select the portfolio will show the last 6 projects.  Here you can click on the URL or be directed to the github repo.
+![alt text](/src/assets/Portfolio.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7.  Select contact and you can send a message but will receive a notification if you have entered an invalid email address  
+![alt text](/src/assets/contact.png)
 
-### Making a Progressive Web App
+8.  Select Resume and if you click on the picture you will download the resume.
+![alt text](/src/assets/Resume_section.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
+    
+none
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+If you have any questions about the repo, open an issue or contact me directly at rypab4@gmail.com.  You can find my work at https://www.github.com/rypab4.
