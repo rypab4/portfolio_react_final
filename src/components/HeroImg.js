@@ -3,6 +3,7 @@ import "./HeroImgStyles.css";
 import React from 'react'
 import IntroImg from "../assets/intro.png";
 import {Link} from 'react-router-dom';
+import picture from '../assets/IMG_3649.jpeg'
 
 const HeroImg = () => {
   return (
@@ -11,9 +12,10 @@ const HeroImg = () => {
         {<img className="intro-img" src={IntroImg} alt="IntroImg"/>}
     </div>
         <div className="content">
-            <p>Hi, I'm a FREELANCER</p>
-            <h1>React Developer</h1>
-            <div>
+            <h1>Ryan Pabalate: </h1>
+              <p>Scientist, Automation Specialist, FullStack Web Developer</p>
+              {<img className="ryan" src={picture} alt=" Ryan Pabalate"/>}
+            <div className="proj-link">
             <Link to="/project" className="btn">Projects</Link>
             <Link to="/contact" className="btn btn-light">Contact</Link>
             </div>
