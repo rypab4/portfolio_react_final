@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio_react_final/static/css/main.6613c6d1.css",
+    "main.js": "/portfolio_react_final/static/js/main.777b5762.js",
+    "static/media/intro.png": "/portfolio_react_final/static/media/intro.e0ac48b69a760ad0e8a5.png",
+    "static/media/react1.png": "/portfolio_react_final/static/media/react1.fe2bd6088c6b9e32dfb2.png",
+    "static/media/progrest.png": "/portfolio_react_final/static/media/progrest.88c16c9e59d28e16d515.png",
+    "static/media/social_media_api.png": "/portfolio_react_final/static/media/social_media_api.20b9975c1614871645e4.png",
+    "static/media/Resume.docx.pdf": "/portfolio_react_final/static/media/Resume.docx.055b0c45306e1c96f396.pdf",
+    "static/media/Resume.png": "/portfolio_react_final/static/media/Resume.97f7ec08531fb378bc3e.png",
+    "static/media/weatherdashboard.png": "/portfolio_react_final/static/media/weatherdashboard.5a2cb05c13710e35a340.png",
+    "static/media/Tech_Blog.png": "/portfolio_react_final/static/media/Tech_Blog.c7a10bd9eb3df8be7fe4.png",
+    "static/media/Note_Taker.png": "/portfolio_react_final/static/media/Note_Taker.089a8e1e0c380e62dc4e.png",
+    "static/media/IMG_3649.jpeg": "/portfolio_react_final/static/media/IMG_3649.0451023a9b9a9ee72fc3.jpeg",
+    "static/media/text_editor.png": "/portfolio_react_final/static/media/text_editor.4175c2834fa71def300d.png",
+    "index.html": "/portfolio_react_final/index.html",
+    "main.6613c6d1.css.map": "/portfolio_react_final/static/css/main.6613c6d1.css.map",
+    "main.777b5762.js.map": "/portfolio_react_final/static/js/main.777b5762.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6613c6d1.css",
+    "static/js/main.777b5762.js"
+  ]
+}
