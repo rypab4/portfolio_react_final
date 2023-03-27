@@ -1,28 +1,33 @@
-import "./HeroImgStyles.css";
+import "./AboutContentStyles.css"
 
 import React from 'react'
-import IntroImg from "../assets/intro.png";
-import {Link} from 'react-router-dom';
+import {Link} from "react-router-dom"
+import React1 from "../assets/react1.png"
+import React2 from "../assets/react2.png"
 
-const HeroImg = () => {
+const AboutContent = () => {
   return (
-    <div className="hero">
-        <div className="mask">
-        {<img className="intro-img" src={IntroImg} alt="IntroImg"/>}
-    </div>
-        <div className="content">
-            <p>Hi, I'm a FREELANCER</p>
-            <h1>React Developer</h1>
-            <div>
-            <Link to="/project" className="btn">Projects</Link>
-            <Link to="/contact" className="btn btn-light">Contact</Link>
+    <div className="about">
+        <div className="left">
+            <h1>Who Am I?</h1>
+            <p>I'm a react front-end developer.  I create responisive secure websites for my clients</p>
+            <Link to="/contact">
+                <button className="btn">Contact</button>
+            </Link>
+
+        </div>
+        <div className="right">
+            <div className="img-container"></div>
+            <div className="img-stack top">
+                <img src={React1} className="img" alt="true"/>
+            </div>
+            <div className="img-stack bottom">  
+            <img src={React2} className="img" alt="true"/>
             </div>
 
         </div>
-
-
     </div>
   )
 }
 
-export default HeroImg
+export default AboutContent;
