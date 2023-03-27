@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <NavLink exact to="/" activeClassName="active">Home</NavLink>
+                    <NavLink exact to="/portfolio_react_final" activeClassName="active">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/about" activeClassName="active">About Me</NavLink>
