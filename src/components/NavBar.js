@@ -37,7 +37,7 @@ const Navbar = () => {
                     <NavLink to="/contact" activeClassName="active">Contact</NavLink>
                 </li>
                 <li>
-                    <Nav.Link href={resume} download>Resume</Nav.Link>
+                <NavLink to="/resume" activeClassName="active">Resume</NavLink>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
