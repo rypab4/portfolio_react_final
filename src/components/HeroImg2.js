@@ -1,28 +1,20 @@
-import "./HeroImgStyles.css";
+import "./HeroImg2Styles.css"
+import React, {Component} from 'react'
 
-import React from 'react'
-import IntroImg from "../assets/intro.png";
-import {Link} from 'react-router-dom';
-
-const HeroImg = () => {
-  return (
-    <div className="hero">
-        <div className="mask">
-        {<img className="intro-img" src={IntroImg} alt="IntroImg"/>}
-    </div>
-        <div className="content">
-            <p>Hi, I'm a FREELANCER</p>
-            <h1>React Developer</h1>
-            <div>
-            <Link to="/project" className="btn">Projects</Link>
-            <Link to="/contact" className="btn btn-light">Contact</Link>
-            </div>
-
+class HeroImg2 extends Component {
+  render(){
+    return (
+    <div className="hero-img">
+        <div className="heading">
+            <h1>
+              {this.props.heading} 
+            </h1>
+            <p>
+              {this.props.text}
+            </p>
         </div>
-
-
     </div>
-  )
+  );
 }
-
-export default HeroImg
+}
+export default HeroImg2
