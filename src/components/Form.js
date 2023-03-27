@@ -8,7 +8,7 @@ const Forms = () => {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
-  const [response, setResponse] = useState(null);
+  const [setResponse] = useState(null);
 
   const handleChange = e => {
     if (e.target.name === 'email') {

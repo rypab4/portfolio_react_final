@@ -1,7 +1,5 @@
 import "./NavBarStyles.css"
 import React, { useState } from 'react'
-import { Nav } from 'react-bootstrap';
-import resume from '../assets/Resume.docx.pdf';
 import { Link, NavLink } from "react-router-dom"
 import { FaBars, FaTimes } from "react-icons/fa"
 
