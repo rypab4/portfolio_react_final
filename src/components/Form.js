@@ -1,28 +1,24 @@
-import "./HeroImgStyles.css";
+import "./FormStyles.css"
 
 import React from 'react'
-import IntroImg from "../assets/intro.png";
-import {Link} from 'react-router-dom';
 
-const HeroImg = () => {
+const Forms = () => {
   return (
-    <div className="hero">
-        <div className="mask">
-        {<img className="intro-img" src={IntroImg} alt="IntroImg"/>}
-    </div>
-        <div className="content">
-            <p>Hi, I'm a FREELANCER</p>
-            <h1>React Developer</h1>
-            <div>
-            <Link to="/project" className="btn">Projects</Link>
-            <Link to="/contact" className="btn btn-light">Contact</Link>
-            </div>
-
-        </div>
-
+    <div className="form">
+      <form>
+        <label>Your Name</label>
+        <input type="text"></input>
+        <label>Your Email</label>
+        <input type="email"></input>
+        <label>Subject</label>
+        <input type="text"></input>
+        <label>Message</label>
+        <textarea rows="8"placeholder="Type your message here"/>
+        <button className="btn">Submit</button>
+      </form>
 
     </div>
   )
 }
 
-export default HeroImg
+export default Forms
