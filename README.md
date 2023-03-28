@@ -23,7 +23,7 @@ The application is a portfolio using React.
 ## Links
 
 GitHub URL:  https://github.com/rypab4/portfolio_react_final
-Heroku URL: https://rypab4.github.io/portfolio_react_final/
+Deployed URL: https://rypab4.github.io/portfolio_react_final/
 ## Installations 
 
 To install necessary dependencies, run the following command if running from github and on local:
