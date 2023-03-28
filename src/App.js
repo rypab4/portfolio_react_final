@@ -5,20 +5,22 @@ import About from "./routes/About"
 import Portfolio from "./routes/Portfolio"
 import Contact from "./routes/Contact"
 import Resume from "./routes/Resume"
-import {Route, Routes } from "react-router-dom"
+import {HashRouter as Router, Route, Routes } from "react-router-dom"
 
 //Difine App component given through react
 function App() {
   return (
     <>
+    <Router>
     {/* Create routes with a path name and which route folder to go to */}
      <Routes> 
-      <Route path="/portfolio_react_final" element={<Home/>} />
+      <Route path="/" element={<Home/>} />
       <Route path="/portfolio" element={<Portfolio/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/resume" element={<Resume/>} />
      </Routes>
+     </Router>
     </>
   );
 }
