@@ -1,6 +1,6 @@
 //create data to pass through portfolio
 
-import pro1 from "../assets/social_media_api.png"
+import pro1 from "../assets/SPICE.png"
 import pro2 from "../assets/Tech_Blog.png"
 import pro3 from "../assets/text_editor.png"
 import pro4 from "../assets/progrest.png"
@@ -10,10 +10,10 @@ import pro6 from "../assets/weatherdashboard.png"
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: "Social Network API",
-        text: "Social network api is a backend networking database using MongoDB and Mongoose. I is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
-        view: "https://github.com/rypab4/social-network-api",
-        url: "https://drive.google.com/file/d/1Psmw3d4KTwKea-ypFa2TAisOulF96qsR/view"
+        title: "SPICE",
+        text: "A community-drien recipe sharing website.",
+        view: "https://github.com/rypab4/social-network-aphttps://github.com/jbxamora/SPICE",
+        url: "https://spicerecipeapp.herokuapp.com/"
     },
     {
         imgsrc: pro2,
@@ -49,7 +49,7 @@ const ProjectCardData = [
         text: "Weather dashboard uses the openweathermap api to get weather data.",
         view: "https://github.com/rypab4/Weather-Dashboard",
         url: "https://lit-lake-70648.herokuapp.com/ "
-    },
+    }
 ]
 
 export default ProjectCardData
